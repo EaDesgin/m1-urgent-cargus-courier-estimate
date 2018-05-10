@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Eadesigndev_Urgent>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Eadesigndev_Urgent>
+    </modules>
+</config>

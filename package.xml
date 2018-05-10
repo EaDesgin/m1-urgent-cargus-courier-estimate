@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eadesigndev_Urgent</name>
+    <version>1.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Extension license name (OSL v3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension integrates Magento with Urgent-Cargus Courier Romania.</summary>
+    <description>The extension uses the url from Urgent-Cargus Courier Romania to get the estimated cost in Magetno for the regions and cities from Romania.</description>
+    <notes>Added a small fix.</notes>
+    <authors><author><name>EaDesign</name><user>eadesign</user><email>office@eadesign.ro</email></author></authors>
+    <date>2015-09-18</date>
+    <time>09:53:44</time>
+    <contents><target name="magelocal"><dir name="Eadesigndev"><dir name="Urgent"><dir name="Block"><dir name="Adminhtml"><dir name="Block"><dir name="System"><file name="Update.php" hash="69066f7fb83dca619580c7ba774c36ad"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="2fd14bbd308be4da0d7d1fe4f48f8548"/><file name="Update.php" hash="405bd6a31e96aeb8509060df8a56dfc4"/><file name="Urgent.php" hash="11b1c466c9de87f716b5caebb4928d5d"/></dir><dir name="Model"><dir name="Carrier"><file name="Urgent.php" hash="36102a10365e5d9ea97786a6486ea5b3"/></dir><dir name="Eacore"><file name="Feed.php" hash="b5c96e76284d3d7408741d25edca5648"/><file name="Observer.php" hash="37ad0702c8204b9c100c1310830e966c"/></dir><dir name="Mysql4"><dir name="Urgent"><file name="Collection.php" hash="fbc97b9f454181770129c2278e673cc6"/></dir><file name="Urgent.php" hash="733cedf99d593149a5dbf7d5378e4579"/></dir><dir name="System"><file name="Abstract.php" hash="28da5ccd4466fc334a6688d7a847c766"/><file name="Pachet.php" hash="ae9b264de1373882e22012f01411291f"/><file name="Plantarifar.php" hash="ee1985ec225f0a2fa74a117fb0aabf53"/><file name="Punctridicare.php" hash="3b46b40bebf020b68f13cc5843c9088c"/><file name="Tarifeafisate.php" hash="913bd9302763f350a610ea0a5457c930"/></dir><file name="Urgent.php" hash="e32e91b5e2f1cbf0b08c045862bea4bd"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="d5d788bd1a94d444951a8f7437ff6501"/></dir></dir><dir name="etc"><file name="config.xml" hash="b4fe283565c377a163642b65b02b91f6"/><file name="system.xml" hash="08545a878542a973e0e60257f55f7907"/></dir><dir name="sql"><dir name="eadsign_urgent_setup"><file name="mysql4-install-1.0.1.php" hash="1b52c65cdfbf67fd1e1aaf96404f8c0a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eadesigndev_Urgent.xml" hash="d81dd662c92cd07b8f24355545ca72bb"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.3</max></php></required></dependencies>
+</package>
